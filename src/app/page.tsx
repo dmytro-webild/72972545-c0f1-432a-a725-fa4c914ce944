@@ -32,6 +32,7 @@ export default function LandingPage() {
             brandName="Austro-Tel Handyshoptraiskirchen"
             navItems={[
               { name: "Start", id: "hero" },
+              { name: "Über uns", id: "/about" },
               { name: "Service", id: "services" },
               { name: "Bewertungen", id: "testimonials" },
               { name: "FAQ", id: "faq" },
@@ -124,7 +125,7 @@ export default function LandingPage() {
           <FooterBaseReveal
             logoText="Austro-Tel Handyshop"
             columns={[
-              { title: "Unternehmen", items: [{ label: "Über uns", href: "#" }, { label: "Kontakt", href: "#contact" }] },
+              { title: "Unternehmen", items: [{ label: "Über uns", href: "/about" }, { label: "Kontakt", href: "#contact" }] },
               { title: "Dienstleistungen", items: [{ label: "Reparaturen", href: "#services" }, { label: "Verkauf", href: "#services" }] },
             ]}
             copyrightText="© 2024 Austro-Tel Handyshop Traiskirchen."
