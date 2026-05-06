@@ -45,7 +45,7 @@ export default function LandingPage() {
         <div id="hero" data-section="hero">
           <HeroCarouselLogo
             logoText="Austro-Tel Handyshop"
-            description="Experten-Reparaturen, aktuelle Geräte und ehrlicher Service seit dem ersten Tag. Besuchen Sie uns in Traiskirchen für schnelle, zuverlässige Lösungen."
+            description="Schnelle Smartphone-Reparaturen & Experten-Service in Traiskirchen – Ihr Gerät in besten Händen"
             buttons={[{ text: "Express-Reparatur anfragen", href: "#contact" }]}
             slides={[
               { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DLX7abrKMHcdx9YbSkGfOjUjyl/uploaded-1778067173487-85khy938.jpg", imageAlt: "Austro-Tel Shop Außenansicht" },
