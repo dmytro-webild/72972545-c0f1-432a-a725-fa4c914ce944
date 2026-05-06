@@ -68,15 +68,15 @@ export default function LandingPage() {
           imageAlt: "Shop Interior View",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/indian-couple-performs-transactions-from-bank-atm_627829-12289.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/indian-couple-performs-transactions-from-bank-atm_627829-12289.jpg?_wi=1",
           imageAlt: "Repair Services",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-women-holding-smartphones_23-2149303399.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-women-holding-smartphones_23-2149303399.jpg?_wi=1",
           imageAlt: "Latest Smartphones",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-man-woman-talking_23-2150171292.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-man-woman-talking_23-2150171292.jpg?_wi=1",
           imageAlt: "Tech Support",
         },
       ]}
@@ -148,21 +148,21 @@ export default function LandingPage() {
           name: "Sarah Miller",
           role: "Local Customer",
           testimonial: "Extremely fast display repair, very friendly service!",
-          imageSrc: "http://img.b2bpic.net/free-photo/indian-couple-performs-transactions-from-bank-atm_627829-12289.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/indian-couple-performs-transactions-from-bank-atm_627829-12289.jpg?_wi=2",
         },
         {
           id: "2",
           name: "Michael H.",
           role: "Long-time Customer",
           testimonial: "The best shop in Traiskirchen. Honest advice and fair prices.",
-          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-women-holding-smartphones_23-2149303399.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-women-holding-smartphones_23-2149303399.jpg?_wi=2",
         },
         {
           id: "3",
           name: "Julia K.",
           role: "Local Customer",
           testimonial: "My phone is working like new again. Highly recommend!",
-          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-man-woman-talking_23-2150171292.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-man-woman-talking_23-2150171292.jpg?_wi=2",
         },
         {
           id: "4",
