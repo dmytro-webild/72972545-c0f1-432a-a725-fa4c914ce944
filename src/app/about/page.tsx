@@ -61,6 +61,9 @@ export default function AboutPage() {
             useInvertedBackground={true}
             background={{ variant: "animated-grid" }}
             text="Besuchen Sie uns in der Otto Glöckel-Straße 1, 2514 Traiskirchen. Wir freuen uns auf Ihren Besuch!"
+            buttons={[
+              { text: "WhatsApp-Anfrage", href: "https://wa.me/436646370016" }
+            ]}
           />
         </div>
 
