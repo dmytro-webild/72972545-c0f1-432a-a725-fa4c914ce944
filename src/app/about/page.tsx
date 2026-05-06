@@ -27,7 +27,7 @@ export default function AboutPage() {
             brandName="Austro-Tel Handyshoptraiskirchen"
             navItems={[
               { name: "Start", id: "/" },
-              { name: "Über uns", id: "#about" },
+              { name: "Über uns", id: "/about" },
               { name: "Service", id: "/#services" },
               { name: "Bewertungen", id: "/#testimonials" },
               { name: "FAQ", id: "/#faq" },
