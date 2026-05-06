@@ -107,6 +107,7 @@ export default function LandingPage() {
               { id: "faq2", title: "Brauche ich einen Termin?", content: "Termine sind nicht zwingend erforderlich, aber empfehlenswert für eine schnellere Abwicklung." },
               { id: "faq3", title: "Gibt es eine Garantie?", content: "Selbstverständlich gewähren wir Garantie auf alle unsere Reparaturen und verbauten Teile." },
             ]}
+            buttons={[{ text: "Kontaktieren Sie uns", href: "#contact" }]}
             title="Häufige Fragen"
             description="Haben Sie Fragen? Wir helfen Ihnen gerne weiter."
             faqsAnimation="slide-up"
