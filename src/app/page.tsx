@@ -103,7 +103,7 @@ export default function LandingPage() {
             textboxLayout="split"
             useInvertedBackground={false}
             faqs={[
-              { id: "faq1", title: "Wie lange dauert eine Reparatur?", content: "Die meisten Reparaturen werden innerhalb weniger Stunden erledigt, abhängig von der Ersatzteilverfügbarkeit." },
+              { id: "faq1", title: "Wie lange dauert eine Reparatur?", content: "In den meisten Fällen noch am selben Tag." },
               { id: "faq2", title: "Brauche ich einen Termin?", content: "Termine sind nicht zwingend erforderlich, aber empfehlenswert für eine schnellere Abwicklung." },
               { id: "faq3", title: "Gibt es eine Garantie?", content: "Selbstverständlich gewähren wir Garantie auf alle unsere Reparaturen und verbauten Teile." },
             ]}
