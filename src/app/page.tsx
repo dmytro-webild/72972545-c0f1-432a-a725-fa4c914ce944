@@ -91,9 +91,9 @@ export default function LandingPage() {
             description="Zufriedene Kunden stehen bei uns an erster Stelle. Lesen Sie, warum uns so viele Menschen vertrauen."
             kpiItems={[{ value: "250+", label: "Bewertungen" }, { value: "4.8", label: "Sterne-Bewertung" }, { value: "100%", label: "Ehrlicher Service" }]}
             testimonials={[
-              { id: "t1", name: "Markus H.", role: "Kunde", company: "Traiskirchen", rating: 5, imageSrc: "" },
-              { id: "t2", name: "Julia S.", role: "Kundin", company: "Ebreichsdorf", rating: 5, imageSrc: "" },
-              { id: "t3", name: "Peter R.", role: "Kunde", company: "Baden", rating: 5, imageSrc: "" }
+              { id: "t1", name: "Markus H.", role: "Kunde", company: "Mein iPhone Display war innerhalb einer Stunde wie neu. Top Service!", rating: 5, imageSrc: "" },
+              { id: "t2", name: "Julia S.", role: "Kundin", company: "Sehr freundliche Beratung und faire Preise bei der Reparatur meines Samsungs.", rating: 5, imageSrc: "" },
+              { id: "t3", name: "Peter R.", role: "Kunde", company: "Schnelle Hilfe bei Softwareproblemen, absolut empfehlenswert für alle in Traiskirchen.", rating: 5, imageSrc: "" }
             ]}
           />
         </div>
