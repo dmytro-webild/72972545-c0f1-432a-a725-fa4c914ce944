@@ -39,6 +39,7 @@ export default function AboutPage() {
 
         <div id="about" data-section="about">
           <InlineImageSplitTextAbout
+            useInvertedBackground={false}
             heading={[
               { type: "text", content: "Über Austro-Tel Handyshop: Ihre Expertise in Traiskirchen" }
             ]}
