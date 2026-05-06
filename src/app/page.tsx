@@ -36,9 +36,9 @@ export default function LandingPage() {
               { name: "Service", id: "services" },
               { name: "Bewertungen", id: "testimonials" },
               { name: "FAQ", id: "faq" },
-              { name: "Kontakt", id: "contact" },
+              { name: "Kontakt", id: "/contact" },
             ]}
-            button={{ text: "Kontakt", href: "#contact" }}
+            button={{ text: "Kontakt", href: "/contact" }}
           />
         </div>
 
@@ -46,7 +46,7 @@ export default function LandingPage() {
           <HeroCarouselLogo
             logoText="Austro-Tel Handyshop"
             description="Reparatur in unter 60 Minuten – Ihr Smartphone-Experte in Traiskirchen für blitzschnellen Service."
-            buttons={[{ text: "Jetzt Reparatur-Termin vereinbaren", href: "#contact" }]}
+            buttons={[{ text: "Jetzt Reparatur-Termin vereinbaren", href: "/contact" }]}
             slides={[
               { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DLX7abrKMHcdx9YbSkGfOjUjyl/uploaded-1778067173487-85khy938.jpg", imageAlt: "Austro-Tel Shop Außenansicht" },
               { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DLX7abrKMHcdx9YbSkGfOjUjyl/uploaded-1778067173487-7q0tljrn.jpg", imageAlt: "Shop Frontansicht" },
@@ -63,7 +63,7 @@ export default function LandingPage() {
               { type: "image", src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DLX7abrKMHcdx9YbSkGfOjUjyl/uploaded-1778067173487-ks07pcgn.jpg", alt: "Handyshop" },
               { type: "text", content: " Smartphone-Reparaturen & Technik" },
             ]}
-            buttons={[{ text: "Wegbeschreibung zum Shop", href: "#contact" }]}
+            buttons={[{ text: "Wegbeschreibung zum Shop", href: "/contact" }]}
           />
         </div>
 
@@ -107,22 +107,10 @@ export default function LandingPage() {
               { id: "faq2", title: "Brauche ich einen Termin?", content: "Termine sind nicht zwingend erforderlich, aber empfehlenswert für eine schnellere Abwicklung." },
               { id: "faq3", title: "Gibt es eine Garantie?", content: "Selbstverständlich gewähren wir Garantie auf alle unsere Reparaturen und verbauten Teile." },
             ]}
-            buttons={[{ text: "Kontaktieren Sie uns", href: "#contact" }]}
+            buttons={[{ text: "Kontaktieren Sie uns", href: "/contact" }]}
             title="Häufige Fragen"
             description="Haben Sie Fragen? Wir helfen Ihnen gerne weiter."
             faqsAnimation="slide-up"
-          />
-        </div>
-
-        <div id="contact" data-section="contact">
-          <ContactText
-            useInvertedBackground={true}
-            background={{ variant: "animated-grid" }}
-            text="Besuchen Sie uns in der **Otto Glöckel-Straße 1, 2514 Traiskirchen**. Öffnungszeiten: **Mo–Fr 08:30–19:30, Sa 08:30–17:00**. Kontaktieren Sie uns unter 02252 521031."
-            buttons={[
-              { text: "Anrufen", href: "tel:+432252521031" },
-              { text: "WhatsApp-Anfrage", href: "https://wa.me/436646370016" }
-            ]}
           />
         </div>
 
@@ -130,8 +118,8 @@ export default function LandingPage() {
           <FooterBaseReveal
             logoText="Austro-Tel Handyshop"
             columns={[
-              { title: "Unternehmen", items: [{ label: "Über uns", href: "/about" }, { label: "Kontakt", href: "#contact" }] },
-              { title: "Dienstleistungen", items: [{ label: "Reparaturen", href: "#services" }, { label: "Verkauf", href: "#services" }] },
+              { title: "Unternehmen", items: [{ label: "Über uns", href: "/about" }, { label: "Kontakt", href: "/contact" }] },
+              { title: "Dienstleistungen", items: [{ label: "Reparaturen", href: "/#services" }, { label: "Verkauf", href: "/#services" }] },
             ]}
             copyrightText="© 2024 Austro-Tel Handyshop Traiskirchen."
           />

@@ -3,10 +3,10 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
-import InlineImageSplitTextAbout from '@/components/sections/about/InlineImageSplitTextAbout';
+import ContactText from '@/components/sections/contact/ContactText';
 import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
 
-export default function AboutPage() {
+export default function ContactPage() {
   return (
     <ThemeProvider
         defaultButtonVariant="hover-magnetic"
@@ -34,13 +34,16 @@ export default function AboutPage() {
             button={{ text: "Kontakt", href: "/contact" }}
           />
 
-        <div id="about" data-section="about" className="pt-24">
-            <InlineImageSplitTextAbout
-                useInvertedBackground={false}
-                heading={[
-                { type: "text", content: "Über Austro-Tel Traiskirchen" },
-                ]}
-            />
+        <div id="contact" data-section="contact" className="pt-24">
+          <ContactText
+            useInvertedBackground={true}
+            background={{ variant: "animated-grid" }}
+            text="Besuchen Sie uns in der **Otto Glöckel-Straße 1, 2514 Traiskirchen**. Öffnungszeiten: **Mo–Fr 08:30–19:30, Sa 08:30–17:00**. Kontaktieren Sie uns unter 02252 521031."
+            buttons={[
+              { text: "Anrufen", href: "tel:+432252521031" },
+              { text: "WhatsApp-Anfrage", href: "https://wa.me/436646370016" }
+            ]}
+          />
         </div>
 
         <FooterBaseReveal
