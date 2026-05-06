@@ -50,7 +50,7 @@ export default function LandingPage() {
             slides={[
               { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DLX7abrKMHcdx9YbSkGfOjUjyl/uploaded-1778076059534-m98510qz.jpg", imageAlt: "Austro-Tel Shop Außenansicht" },
               { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DLX7abrKMHcdx9YbSkGfOjUjyl/uploaded-1778076173104-9xt9dusd.jpg", imageAlt: "Shop Frontansicht" },
-              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DLX7abrKMHcdx9YbSkGfOjUjyl/uploaded-1778075735703-3d9b6uzg.png", imageAlt: "Shop Innenansicht" }
+              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DLX7abrKMHcdx9YbSkGfOjUjyl/uploaded-1778076342534-fy15a8gh.jpg", imageAlt: "Shop Innenansicht" }
             ]}
           />
         </div>
