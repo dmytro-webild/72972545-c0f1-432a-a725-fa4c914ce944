@@ -5,6 +5,7 @@ import "./globals.css";
 import "@/lib/gsap-setup";
 import { ServiceWrapper } from "@/components/ServiceWrapper";
 import { getVisualEditScript } from "@/utils/visual-edit-script";
+import { Public_Sans } from "next/font/google";
 
 
 
@@ -18,8 +19,9 @@ export const metadata: Metadata = {
   },
 };
 
-const inter = Inter({
-  variable: "--font-inter",
+
+const publicSans = Public_Sans({
+  variable: "--font-public-sans",
   subsets: ["latin"],
 });
 
@@ -31,7 +33,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <ServiceWrapper>
-        <body className={`${inter.variable} antialiased`}>
+        <body className={`${publicSans.variable} antialiased`}>
           
           {children}
           <script
