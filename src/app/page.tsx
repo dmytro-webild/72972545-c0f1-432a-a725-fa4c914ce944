@@ -63,7 +63,7 @@ export default function LandingPage() {
               { type: "image", src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DLX7abrKMHcdx9YbSkGfOjUjyl/uploaded-1778067173487-ks07pcgn.jpg", alt: "Handyshop" },
               { type: "text", content: " Smartphone-Reparaturen & Technik" },
             ]}
-            buttons={[{ text: "Besuchen Sie uns: Otto Glöckel-Str. 1", href: "#contact" }]}
+            buttons={[{ text: "Wegbeschreibung zum Shop", href: "#contact" }]}
           />
         </div>
 
