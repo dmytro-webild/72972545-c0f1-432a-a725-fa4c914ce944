@@ -48,8 +48,8 @@ export default function LandingPage() {
             description="Reparatur in unter 60 Minuten – Ihr Smartphone-Experte in Traiskirchen für blitzschnellen Service. WhatsApp: 06646370015"
             buttons={[{ text: "Jetzt Reparatur-Termin vereinbaren", href: "/contact" }]}
             slides={[
-              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DLX7abrKMHcdx9YbSkGfOjUjyl/uploaded-1778075720163-x6y1inl7.png", imageAlt: "Austro-Tel Shop Außenansicht" },
-              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DLX7abrKMHcdx9YbSkGfOjUjyl/uploaded-1778075742616-6s80z96k.png", imageAlt: "Shop Frontansicht" },
+              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DLX7abrKMHcdx9YbSkGfOjUjyl/uploaded-1778076059534-m98510qz.jpg", imageAlt: "Austro-Tel Shop Außenansicht" },
+              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DLX7abrKMHcdx9YbSkGfOjUjyl/uploaded-1778076173104-9xt9dusd.jpg", imageAlt: "Shop Frontansicht" },
               { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DLX7abrKMHcdx9YbSkGfOjUjyl/uploaded-1778075735703-3d9b6uzg.png", imageAlt: "Shop Innenansicht" }
             ]}
           />
