@@ -72,6 +72,7 @@ export default function LandingPage() {
             animationType="slide-up"
             textboxLayout="split"
             useInvertedBackground={false}
+            tag="Top-Rated in Traiskirchen"
             features={[
               { icon: Wrench, title: "Fachgerechte Reparaturen", description: "Display-, Software- und Hardware-Reparaturen durch erfahrene Profis." },
               { icon: Smartphone, title: "Neuste Geräte", description: "Große Auswahl an aktuellen Smartphones und passendem Zubehör." },
