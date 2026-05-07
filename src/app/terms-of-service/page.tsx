@@ -21,7 +21,8 @@ export default function TermsOfServicePage() {
         headingFontWeight="normal"
     >
       <ReactLenis root>
-        <NavbarLayoutFloatingInline
+        <div id="nav" data-section="nav">
+          <NavbarLayoutFloatingInline
             brandName="Austro-Tel Handyshoptraiskirchen"
             button={{ text: "Kontakt", href: "/contact" }}
             navItems={[
@@ -34,8 +35,9 @@ export default function TermsOfServicePage() {
               { name: "AGB", id: "/terms-of-service" },
             ]}
           />
+        </div>
 
-        <div className="pt-24">
+        <div id="terms" data-section="terms" className="pt-24">
           <LegalSection
             layout="page"
             title="Allgemeine Geschäftsbedingungen"
@@ -48,14 +50,16 @@ export default function TermsOfServicePage() {
           />
         </div>
 
-        <FooterBaseReveal
+        <div id="footer" data-section="footer">
+          <FooterBaseReveal
             logoText="Austro-Tel Handyshop"
             columns={[
                 { title: "Unternehmen", items: [{ label: "Über uns", href: "/about" }, { label: "Kontakt", href: "/contact" }, { label: "AGB", href: "/terms-of-service" }] },
                 { title: "Dienstleistungen", items: [{ label: "Reparaturen", href: "/services" }, { label: "Verkauf", href: "/services" }] },
             ]}
             copyrightText="© 2025 Austro-Tel Handyshop Traiskirchen."
-        />
+          />
+        </div>
       </ReactLenis>
     </ThemeProvider>
   );
