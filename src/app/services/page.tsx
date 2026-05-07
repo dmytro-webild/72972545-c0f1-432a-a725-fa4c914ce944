@@ -33,6 +33,7 @@ export default function ServicesPage() {
                 { name: "FAQ", id: "/faq" },
                 { name: "Kontakt", id: "/contact" },
               ]}
+              button={{ text: "Kontakt", href: "/contact" }}
             />
         </div>
 
