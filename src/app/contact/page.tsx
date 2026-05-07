@@ -3,7 +3,7 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
-import ContactText from '@/components/sections/contact/ContactText';
+import ContactCTA from '@/components/sections/contact/ContactCTA';
 import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
 
 export default function ContactPage() {
@@ -35,14 +35,16 @@ export default function ContactPage() {
           />
 
         <div id="contact" data-section="contact" className="pt-24">
-          <ContactText
-            useInvertedBackground={true}
-            background={{ variant: "animated-grid" }}
-            text="Besuchen Sie uns in der **Otto Glöckel-Straße 1, 2514 Traiskirchen**. Öffnungszeiten: **Mo–Fr 08:30–19:30, Sa 08:30–17:00**. Kontaktieren Sie uns unter 02252 521031."
+          <ContactCTA
+            tag="Besuchen Sie uns"
+            title="Kontakt & Öffnungszeiten"
+            description="Wir freuen uns auf Ihren Besuch in der Otto Glöckel Straße 1, 2514 Traiskirchen. Unsere Öffnungszeiten sind Montag bis Freitag sowie Samstag von 08:30 bis 19:30 Uhr. Kontaktieren Sie uns gerne telefonisch unter 02252 521031."
             buttons={[
               { text: "Anrufen", onClick: () => window.location.href = "tel:+432252521031" },
-              { text: "WhatsApp-Anfrage", href: "https://wa.me/436646370015" }
+              { text: "Route planen", href: "https://maps.app.goo.gl/" }
             ]}
+            background={{ variant: "sparkles-gradient" }}
+            useInvertedBackground={true}
           />
         </div>
 
