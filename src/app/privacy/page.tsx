@@ -3,10 +3,10 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
-import InlineImageSplitTextAbout from '@/components/sections/about/InlineImageSplitTextAbout';
 import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
+import LegalSection from '@/components/legal/LegalSection';
 
-export default function AboutPage() {
+export default function PrivacyPolicyPage() {
   return (
     <ThemeProvider
         defaultButtonVariant="hover-magnetic"
@@ -35,13 +35,15 @@ export default function AboutPage() {
             button={{ text: "Anrufen", onClick: () => window.location.href = "tel:+432252521031" }}
           />
 
-        <div id="about" data-section="about" className="pt-24">
-            <InlineImageSplitTextAbout
-                useInvertedBackground={false}
-                heading={[
-                { type: "text", content: "Über uns: Austro-Tel Traiskirchen - Ihr kompetenter Partner für Smartphone-Service seit 25 Jahren." },
-                ]}
-            />
+        <div id="privacy" data-section="privacy" className="pt-24">
+          <LegalSection
+            layout="page"
+            title="Datenschutzerklärung"
+            sections={[
+                { heading: "Einleitung", content: [{ type: "paragraph", text: "Der Schutz Ihrer persönlichen Daten ist uns ein besonderes Anliegen. Wir verarbeiten Ihre Daten daher ausschließlich auf Grundlage der gesetzlichen Bestimmungen (DSGVO, TKG 2003)." }] },
+                { heading: "Kontakt mit uns", content: [{ type: "paragraph", text: "Wenn Sie per Formular auf der Website oder per E-Mail Kontakt mit uns aufnehmen, werden Ihre angegebenen Daten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei uns gespeichert." }] }
+            ]}
+          />
         </div>
 
         <FooterBaseReveal
@@ -50,7 +52,7 @@ export default function AboutPage() {
                 { title: "Unternehmen", items: [{ label: "Über uns", href: "/about" }, { label: "Kontakt", href: "/contact" }, { label: "Datenschutz", href: "/privacy" }] },
                 { title: "Dienstleistungen", items: [{ label: "Reparaturen", href: "/services" }, { label: "Verkauf", href: "/services" }] },
             ]}
-            copyrightText="© 2024 Austro-Tel Handyshop Traiskirchen."
+            copyrightText="© 2025 Austro-Tel Handyshop Traiskirchen."
         />
       </ReactLenis>
     </ThemeProvider>
