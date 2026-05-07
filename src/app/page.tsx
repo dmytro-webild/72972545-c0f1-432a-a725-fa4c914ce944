@@ -28,7 +28,7 @@ export default function LandingPage() {
       <ReactLenis root>
         <div id="nav" data-section="nav">
           <NavbarLayoutFloatingInline
-            brandName="Austro-Tel Handyshoptraiskirchen"
+            brandName="Austro-Tel Handyshop"
             navItems={[
               { name: "Start", id: "/" },
               { name: "Über uns", id: "/about" },
