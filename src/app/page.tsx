@@ -63,7 +63,7 @@ export default function LandingPage() {
               { type: "image", src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DLX7abrKMHcdx9YbSkGfOjUjyl/uploaded-1778144863108-3i66kqvi.png", alt: "Handyshop" },
               { type: "text", content: " Smartphone-Reparaturen – seit einem Vierteljahrhundert im Einsatz." },
             ]}
-            buttons={[{ text: "Wegbeschreibung zum Shop", href: "/contact" }, { text: "Anrufen", onClick: () => window.location.href = "tel:+432252521031" }]}
+            buttons={[{ text: "Unsere Services entdecken", href: "/services" }, { text: "Anrufen", onClick: () => window.location.href = "tel:+432252521031" }]}
           />
         </div>
 
