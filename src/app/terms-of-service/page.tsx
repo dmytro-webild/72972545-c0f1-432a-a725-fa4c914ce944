@@ -21,21 +21,23 @@ export default function TermsOfServicePage() {
         headingFontWeight="normal"
     >
       <ReactLenis root>
-        <NavbarLayoutFloatingInline
-            brandName="Austro-Tel Handyshoptraiskirchen"
-            navItems={[
-              { name: "Start", id: "/" },
-              { name: "Über uns", id: "/about" },
-              { name: "Service", id: "/services" },
-              { name: "Bewertungen", id: "/testimonials" },
-              { name: "FAQ", id: "/faq" },
-              { name: "Kontakt", id: "/contact" },
-              { name: "AGB", id: "/terms-of-service" },
-            ]}
-            button={{ text: "Anrufen", onClick: () => window.location.href = "tel:+432252521031" }}
-          />
+        <div id="nav" data-section="nav">
+          <NavbarLayoutFloatingInline
+              brandName="Austro-Tel Handyshoptraiskirchen"
+              navItems={[
+                { name: "Start", id: "/" },
+                { name: "Über uns", id: "/about" },
+                { name: "Service", id: "/services" },
+                { name: "Bewertungen", id: "/testimonials" },
+                { name: "FAQ", id: "/faq" },
+                { name: "Kontakt", id: "/contact" },
+                { name: "AGB", id: "/terms-of-service" },
+              ]}
+              button={{ text: "Anrufen", onClick: () => window.location.href = "tel:+432252521031" }}
+            />
+        </div>
 
-        <div className="pt-24 pb-12">
+        <div id="terms" data-section="terms" className="pt-24 pb-12">
           <LegalSection 
             layout="page"
             title="Allgemeine Geschäftsbedingungen"
@@ -50,14 +52,16 @@ export default function TermsOfServicePage() {
           />
         </div>
 
-        <FooterBaseReveal
-            logoText="Austro-Tel Handyshop"
-            columns={[
-                { title: "Unternehmen", items: [{ label: "Über uns", href: "/about" }, { label: "Kontakt", href: "/contact" }, { label: "AGB", href: "/terms-of-service" }] },
-                { title: "Dienstleistungen", items: [{ label: "Reparaturen", href: "/services" }, { label: "Verkauf", href: "/services" }] },
-            ]}
-            copyrightText="© 2024 Austro-Tel Handyshop Traiskirchen."
-        />
+        <div id="footer" data-section="footer">
+          <FooterBaseReveal
+              logoText="Austro-Tel Handyshop"
+              columns={[
+                  { title: "Unternehmen", items: [{ label: "Über uns", href: "/about" }, { label: "Kontakt", href: "/contact" }, { label: "AGB", href: "/terms-of-service" }] },
+                  { title: "Dienstleistungen", items: [{ label: "Reparaturen", href: "/services" }, { label: "Verkauf", href: "/services" }] },
+              ]}
+              copyrightText="© 2024 Austro-Tel Handyshop Traiskirchen."
+          />
+        </div>
       </ReactLenis>
     </ThemeProvider>
   );
