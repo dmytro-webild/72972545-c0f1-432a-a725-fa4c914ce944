@@ -43,10 +43,12 @@ export default function TermsOfServicePage() {
             title="Allgemeine Geschäftsbedingungen"
             sections={[
                 {
-                    heading: "1. Geltungsbereich",                    content: { type: "paragraph", text: "Diese Allgemeinen Geschäftsbedingungen gelten für alle Reparaturen und Verkäufe durch Austro-Tel Handyshop Traiskirchen." }
+                    heading: "1. Geltungsbereich",                    
+                    content: { type: "paragraph", text: "Diese Allgemeinen Geschäftsbedingungen gelten für alle Reparaturen und Verkäufe durch Austro-Tel Handyshop Traiskirchen." }
                 },
                 {
-                    heading: "2. Reparaturaufträge",                    content: { type: "paragraph", text: "Reparaturen werden fachgerecht ausgeführt. Die Garantie auf die ausgeführten Arbeiten beträgt gemäß gesetzlicher Bestimmungen 6 Monate." }
+                    heading: "2. Reparaturaufträge",                    
+                    content: { type: "paragraph", text: "Reparaturen werden fachgerecht ausgeführt. Die Garantie auf die ausgeführten Arbeiten beträgt gemäß gesetzlicher Bestimmungen 6 Monate." }
                 }
             ]}
           />
