@@ -31,7 +31,7 @@ export default function ContactPage() {
               { name: "FAQ", id: "/faq" },
               { name: "Kontakt", id: "/contact" },
             ]}
-            button={{ text: "Kontakt", href: "/contact" }}
+            button={{ text: "Anrufen", onClick: () => window.location.href = "tel:+432252521031" }}
           />
 
         <div id="contact" data-section="contact" className="pt-24">
@@ -40,7 +40,7 @@ export default function ContactPage() {
             background={{ variant: "animated-grid" }}
             text="Besuchen Sie uns in der **Otto Glöckel-Straße 1, 2514 Traiskirchen**. Öffnungszeiten: **Mo–Fr 08:30–19:30, Sa 08:30–17:00**. Kontaktieren Sie uns unter 02252 521031."
             buttons={[
-              { text: "Anrufen", href: "tel:+432252521031" },
+              { text: "Anrufen", onClick: () => window.location.href = "tel:+432252521031" },
               { text: "WhatsApp-Anfrage", href: "https://wa.me/436646370015" }
             ]}
           />

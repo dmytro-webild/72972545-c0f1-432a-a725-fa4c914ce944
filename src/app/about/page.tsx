@@ -31,7 +31,7 @@ export default function AboutPage() {
               { name: "FAQ", id: "/faq" },
               { name: "Kontakt", id: "/contact" },
             ]}
-            button={{ text: "Kontakt", href: "/contact" }}
+            button={{ text: "Anrufen", onClick: () => window.location.href = "tel:+432252521031" }}
           />
 
         <div id="about" data-section="about" className="pt-24">
