@@ -47,7 +47,7 @@ export default function LandingPage() {
           <HeroCarouselLogo
             logoText="Austro-Tel Handyshop"
             description="Seit 25 Jahren Ihr Smartphone-Experte in Traiskirchen – Reparatur in unter 60 Minuten mit blitzschnellem Service. WhatsApp: 06646370015"
-            buttons={[{ text: "Jetzt Reparatur-Termin vereinbaren", href: "/contact", className: "bg-accent text-accent-foreground font-bold" }, { text: "Anrufen", onClick: () => window.location.href = "tel:+432252521031" }]}
+            buttons={[{ text: "Jetzt Reparatur-Termin vereinbaren", href: "/contact" }, { text: "Anrufen", onClick: () => window.location.href = "tel:+432252521031" }]}
             slides={[
               { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DLX7abrKMHcdx9YbSkGfOjUjyl/uploaded-1778144863108-a7jdq3jn.jpg?_wi=1", imageAlt: "Austro-Tel Shop Außenansicht" },
               { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DLX7abrKMHcdx9YbSkGfOjUjyl/uploaded-1778144863108-xa8y728e.jpg?_wi=1", imageAlt: "Shop Frontansicht" },
