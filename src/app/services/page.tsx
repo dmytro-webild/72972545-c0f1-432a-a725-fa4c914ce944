@@ -32,7 +32,6 @@ export default function ServicesPage() {
                 { name: "Bewertungen", id: "/testimonials" },
                 { name: "FAQ", id: "/faq" },
                 { name: "Kontakt", id: "/contact" },
-                { name: "AGB", id: "/terms-of-service" },
               ]}
               button={{ text: "Kontakt", href: "/contact" }}
             />
@@ -60,7 +59,7 @@ export default function ServicesPage() {
           <FooterBaseReveal
               logoText="Austro-Tel Handyshop"
               columns={[
-                  { title: "Unternehmen", items: [{ label: "Über uns", href: "/about" }, { label: "Kontakt", href: "/contact" }, { label: "AGB", href: "/terms-of-service" }] },
+                  { title: "Unternehmen", items: [{ label: "Über uns", href: "/about" }, { label: "Kontakt", href: "/contact" }] },
                   { title: "Dienstleistungen", items: [{ label: "Reparaturen", href: "/services" }, { label: "Verkauf", href: "/services" }] },
               ]}
               copyrightText="© 2025 Austro-Tel Handyshop Traiskirchen."
