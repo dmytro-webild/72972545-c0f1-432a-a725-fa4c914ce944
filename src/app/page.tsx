@@ -31,11 +31,11 @@ export default function LandingPage() {
           <NavbarLayoutFloatingInline
             brandName="Austro-Tel Handyshoptraiskirchen"
             navItems={[
-              { name: "Start", id: "hero" },
+              { name: "Start", id: "/" },
               { name: "Über uns", id: "/about" },
-              { name: "Service", id: "services" },
-              { name: "Bewertungen", id: "testimonials" },
-              { name: "FAQ", id: "faq" },
+              { name: "Service", id: "/services" },
+              { name: "Bewertungen", id: "/testimonials" },
+              { name: "FAQ", id: "/faq" },
               { name: "Kontakt", id: "/contact" },
             ]}
             button={{ text: "Anrufen", onClick: () => window.location.href = "tel:+432252521031" }}
