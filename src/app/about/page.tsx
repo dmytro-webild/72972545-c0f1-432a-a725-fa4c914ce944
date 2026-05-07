@@ -27,6 +27,7 @@ export default function AboutPage() {
               { name: "Start", id: "/" },
               { name: "Über uns", id: "/about" },
               { name: "Service", id: "/services" },
+              { name: "Funktionen", id: "/features" },
               { name: "Bewertungen", id: "/testimonials" },
               { name: "FAQ", id: "/faq" },
               { name: "Kontakt", id: "/contact" },
