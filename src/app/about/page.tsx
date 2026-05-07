@@ -22,7 +22,7 @@ export default function AboutPage() {
     >
       <ReactLenis root>
         <NavbarLayoutFloatingInline
-            brandName="Austro-Tel Handyshoptraiskirchen"
+            brandName="Austrotel Traiskirchen"
             navItems={[
               { name: "Start", id: "/" },
               { name: "Über uns", id: "/about" },
@@ -38,18 +38,18 @@ export default function AboutPage() {
             <InlineImageSplitTextAbout
                 useInvertedBackground={false}
                 heading={[
-                { type: "text", content: "Über uns: Austro-Tel Traiskirchen - Ihr kompetenter Partner für Smartphone-Service seit 25 Jahren." },
+                { type: "text", content: "Austrotel Traiskirchen: 25 Jahre Expertise in Smartphone-Reparatur und Mobilfunk." },
                 ]}
             />
         </div>
 
         <FooterBaseReveal
-            logoText="Austro-Tel Handyshop"
+            logoText="Austrotel Traiskirchen"
             columns={[
                 { title: "Unternehmen", items: [{ label: "Über uns", href: "/about" }, { label: "Kontakt", href: "/contact" }] },
-                { title: "Dienstleistungen", items: [{ label: "Reparaturen", href: "/services" }, { label: "Verkauf", href: "/services" }] },
+                { title: "Service", items: [{ label: "Reparaturen", href: "/services" }, { label: "Anfahrt", href: "/contact" }] },
             ]}
-            copyrightText="© 2024 Austro-Tel Handyshop Traiskirchen."
+            copyrightText="© 2025 Austrotel Traiskirchen."
         />
       </ReactLenis>
     </ThemeProvider>

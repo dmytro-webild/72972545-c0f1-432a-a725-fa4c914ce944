@@ -22,7 +22,7 @@ export default function ContactPage() {
     >
       <ReactLenis root>
         <NavbarLayoutFloatingInline
-            brandName="Austro-Tel Handyshoptraiskirchen"
+            brandName="Austrotel Traiskirchen"
             navItems={[
               { name: "Start", id: "/" },
               { name: "Über uns", id: "/about" },
@@ -36,9 +36,9 @@ export default function ContactPage() {
 
         <div id="contact" data-section="contact" className="pt-24">
           <ContactCTA
-            tag="Besuchen Sie uns"
-            title="Kontakt & Öffnungszeiten"
-            description="Wir freuen uns auf Ihren Besuch in der Otto Glöckel Straße 1, 2514 Traiskirchen. Unsere Öffnungszeiten sind Montag bis Freitag von 08:30 bis 19:30 Uhr und Samstag bis 17 :00. Kontaktieren Sie uns gerne telefonisch unter 02252/521031 oder 0664/6370015."
+            tag="Standort"
+            title="Besuchen Sie uns in Traiskirchen"
+            description="Wir finden uns in der Otto Glöckel Straße 1, 2514 Traiskirchen. Ihr langjähriger Partner für alle Handyfragen."
             buttons={[
               { text: "Anrufen", onClick: () => window.location.href = "tel:+432252521031" },
               { text: "Route planen", href: "https://maps.app.goo.gl/qNRZmzXdfFwAxcFP8" }
@@ -49,12 +49,12 @@ export default function ContactPage() {
         </div>
 
         <FooterBaseReveal
-            logoText="Austro-Tel Handyshop"
+            logoText="Austrotel Traiskirchen"
             columns={[
                 { title: "Unternehmen", items: [{ label: "Über uns", href: "/about" }, { label: "Kontakt", href: "/contact" }] },
-                { title: "Dienstleistungen", items: [{ label: "Reparaturen", href: "/services" }, { label: "Verkauf", href: "/services" }] },
+                { title: "Service", items: [{ label: "Reparaturen", href: "/services" }, { label: "Anfahrt", href: "/contact" }] },
             ]}
-            copyrightText="© 2024 Austro-Tel Handyshop Traiskirchen."
+            copyrightText="© 2025 Austrotel Traiskirchen."
         />
       </ReactLenis>
     </ThemeProvider>
