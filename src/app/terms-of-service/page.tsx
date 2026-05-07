@@ -23,6 +23,7 @@ export default function TermsOfServicePage() {
       <ReactLenis root>
         <NavbarLayoutFloatingInline
             brandName="Austro-Tel Handyshoptraiskirchen"
+            button={{ text: "Kontakt", href: "/contact" }}
             navItems={[
               { name: "Start", id: "/" },
               { name: "Über uns", id: "/about" },
