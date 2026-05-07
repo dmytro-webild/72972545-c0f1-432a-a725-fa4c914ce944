@@ -3,10 +3,10 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
-import InlineImageSplitTextAbout from '@/components/sections/about/InlineImageSplitTextAbout';
+import LegalSection from '@/components/legal/LegalSection';
 import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
 
-export default function AboutPage() {
+export default function TermsOfServicePage() {
   return (
     <ThemeProvider
         defaultButtonVariant="hover-magnetic"
@@ -35,13 +35,19 @@ export default function AboutPage() {
             button={{ text: "Anrufen", onClick: () => window.location.href = "tel:+432252521031" }}
           />
 
-        <div id="about" data-section="about" className="pt-24">
-            <InlineImageSplitTextAbout
-                useInvertedBackground={false}
-                heading={[
-                { type: "text", content: "Über uns: Austro-Tel Traiskirchen - Ihr kompetenter Partner für Smartphone-Service seit 25 Jahren." },
-                ]}
-            />
+        <div className="pt-24 pb-12">
+          <LegalSection 
+            layout="page"
+            title="Allgemeine Geschäftsbedingungen"
+            sections={[
+                {
+                    heading: "1. Geltungsbereich",                    content: { type: "paragraph", text: "Diese Allgemeinen Geschäftsbedingungen gelten für alle Reparaturen und Verkäufe durch Austro-Tel Handyshop Traiskirchen." }
+                },
+                {
+                    heading: "2. Reparaturaufträge",                    content: { type: "paragraph", text: "Reparaturen werden fachgerecht ausgeführt. Die Garantie auf die ausgeführten Arbeiten beträgt gemäß gesetzlicher Bestimmungen 6 Monate." }
+                }
+            ]}
+          />
         </div>
 
         <FooterBaseReveal
