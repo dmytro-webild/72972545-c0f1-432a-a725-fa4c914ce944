@@ -38,7 +38,7 @@ export default function AboutPage() {
             <InlineImageSplitTextAbout
                 useInvertedBackground={false}
                 heading={[
-                { type: "text", content: "Guten Text über uns: Austro-Tel Traiskirchen - Ihr kompetenter Partner für Smartphone-Service seit 25 Jahren." },
+                { type: "text", content: "Über uns: Austro-Tel Traiskirchen - Ihr kompetenter Partner für Smartphone-Service seit 25 Jahren." },
                 ]}
             />
         </div>
