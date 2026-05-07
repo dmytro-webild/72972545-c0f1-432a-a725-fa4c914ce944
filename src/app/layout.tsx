@@ -11,7 +11,7 @@ import { Raleway } from "next/font/google";
 
 
 export const metadata: Metadata = {
-  title: "Austro-Tel Traiskirchen | Handy Reparatur & Service",
+  title: "Austro-Tel | Handy Reparatur & Service",
   description: "Top-rated smartphone shop in Traiskirchen. Expert repairs, device sales, and friendly service. 4.8 star rating, 250+ reviews.",
   openGraph: {
     "title": "Austro-Tel Handyshop Traiskirchen",
