@@ -26,9 +26,9 @@ export default function ContactPage() {
             navItems={[
               { name: "Start", id: "/" },
               { name: "Über uns", id: "/about" },
-              { name: "Service", id: "/#services" },
-              { name: "Bewertungen", id: "/#testimonials" },
-              { name: "FAQ", id: "/#faq" },
+              { name: "Service", id: "/services" },
+              { name: "Bewertungen", id: "/testimonials" },
+              { name: "FAQ", id: "/faq" },
               { name: "Kontakt", id: "/contact" },
             ]}
             button={{ text: "Kontakt", href: "/contact" }}
@@ -50,7 +50,7 @@ export default function ContactPage() {
             logoText="Austro-Tel Handyshop"
             columns={[
                 { title: "Unternehmen", items: [{ label: "Über uns", href: "/about" }, { label: "Kontakt", href: "/contact" }] },
-                { title: "Dienstleistungen", items: [{ label: "Reparaturen", href: "/#services" }, { label: "Verkauf", href: "/#services" }] },
+                { title: "Dienstleistungen", items: [{ label: "Reparaturen", href: "/services" }, { label: "Verkauf", href: "/services" }] },
             ]}
             copyrightText="© 2024 Austro-Tel Handyshop Traiskirchen."
         />
