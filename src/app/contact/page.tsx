@@ -41,7 +41,7 @@ export default function ContactPage() {
             description="Wir freuen uns auf Ihren Besuch in der Otto Glöckel Straße 1, 2514 Traiskirchen. Unsere Öffnungszeiten sind Montag bis Freitag von 08:30 bis 19:30 Uhr und Samstag bis 17 :00. Kontaktieren Sie uns gerne telefonisch unter 02252/521031 oder 0664/6370015."
             buttons={[
               { text: "Anrufen", onClick: () => window.location.href = "tel:+432252521031" },
-              { text: "Route planen", href: "https://maps.app.goo.gl/" }
+              { text: "Route planen", href: "https://maps.app.goo.gl/qNRZmzXdfFwAxcFP8" }
             ]}
             background={{ variant: "sparkles-gradient" }}
             useInvertedBackground={true}
