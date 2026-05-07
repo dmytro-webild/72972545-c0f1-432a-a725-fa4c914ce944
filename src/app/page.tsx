@@ -48,9 +48,9 @@ export default function LandingPage() {
             description="Reparatur in unter 60 Minuten – Ihr Smartphone-Experte in Traiskirchen für blitzschnellen Service. WhatsApp: 06646370015"
             buttons={[{ text: "Jetzt Reparatur-Termin vereinbaren", href: "/contact" }]}
             slides={[
-              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DLX7abrKMHcdx9YbSkGfOjUjyl/uploaded-1778076059534-m98510qz.jpg", imageAlt: "Austro-Tel Shop Außenansicht" },
-              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DLX7abrKMHcdx9YbSkGfOjUjyl/uploaded-1778076173104-9xt9dusd.jpg", imageAlt: "Shop Frontansicht" },
-              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DLX7abrKMHcdx9YbSkGfOjUjyl/uploaded-1778076342534-fy15a8gh.jpg", imageAlt: "Shop Innenansicht" }
+              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DLX7abrKMHcdx9YbSkGfOjUjyl/uploaded-1778144863108-a7jdq3jn.jpg", imageAlt: "Austro-Tel Shop Außenansicht" },
+              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DLX7abrKMHcdx9YbSkGfOjUjyl/uploaded-1778144863108-xa8y728e.jpg", imageAlt: "Shop Frontansicht" },
+              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DLX7abrKMHcdx9YbSkGfOjUjyl/uploaded-1778144863108-3i66kqvi.png", imageAlt: "Shop Innenansicht" }
             ]}
           />
         </div>
@@ -60,7 +60,7 @@ export default function LandingPage() {
             useInvertedBackground={false}
             heading={[
               { type: "text", content: "Ihr lokaler Experte für " },
-              { type: "image", src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DLX7abrKMHcdx9YbSkGfOjUjyl/uploaded-1778067173487-ks07pcgn.jpg", alt: "Handyshop" },
+              { type: "image", src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DLX7abrKMHcdx9YbSkGfOjUjyl/uploaded-1778144863108-3i66kqvi.png", alt: "Handyshop" },
               { type: "text", content: " Smartphone-Reparaturen & Technik" },
             ]}
             buttons={[{ text: "Wegbeschreibung zum Shop", href: "/contact" }]}
@@ -92,8 +92,8 @@ export default function LandingPage() {
             description="Zufriedene Kunden stehen bei uns an erster Stelle. Lesen Sie, warum uns so viele Menschen vertrauen."
             kpiItems={[{ value: "250+", label: "Bewertungen" }, { value: "4.8", label: "Sterne-Bewertung" }, { value: "100%", label: "Ehrlicher Service" }]}
             testimonials={[
-              { id: "t1", name: "Markus H.", role: "Kunde", company: "Mein iPhone Display war innerhalb einer Stunde wie neu. Top Service!", rating: 5, imageSrc: "" },
-              { id: "t2", name: "Julia S.", role: "Kundin", company: "Sehr freundliche Beratung und faire Preise bei der Reparatur meines Samsungs.", rating: 5, imageSrc: "" },
+              { id: "t1", name: "Markus H.", role: "Kunde", company: "Mein iPhone Display war innerhalb einer Stunde wie neu. Top Service!", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DLX7abrKMHcdx9YbSkGfOjUjyl/uploaded-1778144863108-a7jdq3jn.jpg" },
+              { id: "t2", name: "Julia S.", role: "Kundin", company: "Sehr freundliche Beratung und faire Preise bei der Reparatur meines Samsungs.", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DLX7abrKMHcdx9YbSkGfOjUjyl/uploaded-1778144863108-xa8y728e.jpg" },
               { id: "t3", name: "Peter R.", role: "Kunde", company: "Schnelle Hilfe bei Softwareproblemen, absolut empfehlenswert für alle in Traiskirchen.", rating: 5, imageSrc: "" }
             ]}
           />
@@ -120,7 +120,7 @@ export default function LandingPage() {
             logoText="Austro-Tel Handyshop"
             columns={[
               { title: "Unternehmen", items: [{ label: "Über uns", href: "/about" }, { label: "Kontakt", href: "/contact" }] },
-              { title: "Dienstleistungen", items: [{ label: "Reparaturen", href: "/#services" }, { label: "Verkauf", href: "/#services" }] },
+              { title: "Dienstleistungen", items: [{ label: "Reparaturen", href: "/services" }, { label: "Verkauf", href: "/services" }] },
             ]}
             copyrightText="© 2024 Austro-Tel Handyshop Traiskirchen."
           />
