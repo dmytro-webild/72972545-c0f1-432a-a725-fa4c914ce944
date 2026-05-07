@@ -2,14 +2,13 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import ContactText from '@/components/sections/contact/ContactText';
-import FaqBase from '@/components/sections/faq/FaqBase';
-import FeatureHoverPattern from '@/components/sections/feature/featureHoverPattern/FeatureHoverPattern';
 import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
 import HeroCarouselLogo from '@/components/sections/hero/heroCarouselLogo/HeroCarouselLogo';
 import InlineImageSplitTextAbout from '@/components/sections/about/InlineImageSplitTextAbout';
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
 import TestimonialCardSixteen from '@/components/sections/testimonial/TestimonialCardSixteen';
+import FaqBase from '@/components/sections/faq/FaqBase';
+import FeatureHoverPattern from '@/components/sections/feature/featureHoverPattern/FeatureHoverPattern';
 import { ShieldCheck, Smartphone, Wrench } from "lucide-react";
 
 export default function LandingPage() {
@@ -29,7 +28,7 @@ export default function LandingPage() {
       <ReactLenis root>
         <div id="nav" data-section="nav">
           <NavbarLayoutFloatingInline
-            brandName="Austro-Tel Handyshoptraiskirchen"
+            brandName="Austrotel Traiskirchen"
             navItems={[
               { name: "Start", id: "/" },
               { name: "Über uns", id: "/about" },
@@ -44,13 +43,12 @@ export default function LandingPage() {
 
         <div id="hero" data-section="hero">
           <HeroCarouselLogo
-            logoText="Austro-Tel Handyshop"
-            description="Seit 25 Jahren Ihr Smartphone-Experte in Traiskirchen – Reparatur in unter 60 Minuten mit blitzschnellem Service. WhatsApp: 06646370015"
-            buttons={[{ text: "Jetzt Reparatur-Termin vereinbaren", href: "/contact" }, { text: "Anrufen", onClick: () => window.location.href = "tel:+432252521031" }]}
+            logoText="Austrotel Traiskirchen"
+            description="Seit 25 Jahren Ihr zuverlässiger Partner in Traiskirchen für Smartphone-Reparatur, Mobilfunk und Zubehör."
+            buttons={[{ text: "Kontakt", href: "/contact" }, { text: "Anrufen", onClick: () => window.location.href = "tel:+432252521031" }]}
             slides={[
-              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DLX7abrKMHcdx9YbSkGfOjUjyl/uploaded-1778144863108-a7jdq3jn.jpg?_wi=1", imageAlt: "Austro-Tel Shop Außenansicht" },
-              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DLX7abrKMHcdx9YbSkGfOjUjyl/uploaded-1778144863108-xa8y728e.jpg?_wi=1", imageAlt: "Shop Frontansicht" },
-              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DLX7abrKMHcdx9YbSkGfOjUjyl/uploaded-1778144863108-3i66kqvi.png", imageAlt: "Shop Innenansicht" }
+              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DLX7abrKMHcdx9YbSkGfOjUjyl/uploaded-1778144863108-a7jdq3jn.jpg?_wi=1", imageAlt: "Austrotel Shop Ansicht" },
+              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DLX7abrKMHcdx9YbSkGfOjUjyl/uploaded-1778144863108-xa8y728e.jpg?_wi=1", imageAlt: "Austrotel Team" }
             ]}
           />
         </div>
@@ -59,11 +57,9 @@ export default function LandingPage() {
           <InlineImageSplitTextAbout
             useInvertedBackground={false}
             heading={[
-              { type: "text", content: "Ihr lokaler Experte für " },
-              { type: "image", src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DLX7abrKMHcdx9YbSkGfOjUjyl/uploaded-1778144863108-3i66kqvi.png", alt: "Handyshop" },
-              { type: "text", content: " Smartphone-Reparaturen – seit einem Vierteljahrhundert im Einsatz." },
+              { type: "text", content: "Über uns – Ihr Fachgeschäft für Kommunikation in der Otto Glöckel Straße 1." }
             ]}
-            buttons={[{ text: "Wegbeschreibung zum Shop", href: "/contact" }, { text: "Anrufen", onClick: () => window.location.href = "tel:+432252521031" }]}
+            buttons={[{ text: "Wegbeschreibung", href: "https://maps.app.goo.gl/qNRZmzXdfFwAxcFP8" }]}
           />
         </div>
 
@@ -72,14 +68,14 @@ export default function LandingPage() {
             animationType="slide-up"
             textboxLayout="split"
             useInvertedBackground={false}
-            tag="Top-Rated in Traiskirchen"
+            tag="Service & Kompetenz"
             features={[
-              { icon: Wrench, title: "Fachgerechte Reparaturen", description: "Display-, Software- und Hardware-Reparaturen durch erfahrene Profis seit 25 Jahren." },
-              { icon: Smartphone, title: "Neuste Geräte", description: "Große Auswahl an aktuellen Smartphones und passendem Zubehör bei Ihrem vertrauten Partner." },
-              { icon: ShieldCheck, title: "Transparente Preise", description: "Ehrliche und faire Kostenaufstellung ohne versteckte Gebühren seit zwei Jahrzehnten." },
+              { icon: Wrench, title: "Reparaturservice", description: "Fachgerechte Reparatur Ihres Geräts durch erfahrene Techniker." },
+              { icon: Smartphone, title: "Mobilfunk & Zubehör", description: "Breite Auswahl an Produkten und Tarifen direkt vor Ort in Traiskirchen." },
+              { icon: ShieldCheck, title: "Tradition & Vertrauen", description: "25 Jahre Erfahrung in der Branche sprechen für höchste Kundenzufriedenheit." },
             ]}
-            title="Warum Austro-Tel?"
-            description="Seit 25 Jahren stehen wir für Qualität. Mit über 250+ Bewertungen und 4,8 Sternen sind wir Ihr vertrauenswürdiger Ansprechpartner in Traiskirchen."
+            title="Was uns auszeichnet"
+            description="Austrotel Traiskirchen steht für Qualität, Transparenz und einen persönlichen Service, der Sie in den Mittelpunkt stellt."
           />
         </div>
 
@@ -88,13 +84,12 @@ export default function LandingPage() {
             useInvertedBackground={true}
             animationType="slide-up"
             textboxLayout="split"
-            title="Was unsere Kunden sagen"
-            description="Seit 25 Jahren an Ihrer Seite. Zufriedene Kunden stehen bei uns an erster Stelle. Lesen Sie, warum uns so viele Menschen seit Jahrzehnten vertrauen."
-            kpiItems={[{ value: "25", label: "Jahre Erfahrung" }, { value: "4.8", label: "Sterne-Bewertung" }, { value: "100%", label: "Ehrlicher Service" }]}
+            title="Kundenstimmen"
+            description="Unsere Kunden schätzen unsere langjährige Erfahrung und unser Engagement für exzellenten Service."
+            kpiItems={[{ value: "25+", label: "Jahre Erfahrung" }, { value: "4.8", label: "Durchschnittsbewertung" }, { value: "Top", label: "Kundenservice" }]}
             testimonials={[
-              { id: "t1", name: "Markus H.", role: "Kunde", company: "Mein iPhone Display war innerhalb einer Stunde wie neu. Top Service!", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DLX7abrKMHcdx9YbSkGfOjUjyl/uploaded-1778144863108-a7jdq3jn.jpg?_wi=2" },
-              { id: "t2", name: "Julia S.", role: "Kundin", company: "Sehr freundliche Beratung und faire Preise bei der Reparatur meines Samsungs.", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DLX7abrKMHcdx9YbSkGfOjUjyl/uploaded-1778144863108-xa8y728e.jpg?_wi=2" },
-              { id: "t3", name: "Peter R.", role: "Kunde", company: "Schnelle Hilfe bei Softwareproblemen, absolut empfehlenswert für alle in Traiskirchen.", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DLX7abrKMHcdx9YbSkGfOjUjyl/uploaded-1778144863108-a7jdq3jn.jpg?_wi=1" }
+              { id: "t1", name: "Kunde", role: "Traiskirchen", company: "Sehr freundliche Beratung und schnelle Hilfe.", rating: 5 },
+              { id: "t2", name: "Kunde", role: "Traiskirchen", company: "Seit Jahren mein erster Ansprechpartner bei Handyproblemen.", rating: 5 }
             ]}
           />
         </div>
@@ -104,25 +99,23 @@ export default function LandingPage() {
             textboxLayout="split"
             useInvertedBackground={false}
             faqs={[
-              { id: "faq1", title: "Wie lange dauert eine Reparatur?", content: "Seit 25 Jahren Erfahrung garantieren wir schnellen Service – meistens erhalten Sie Ihr Gerät noch am selben Tag zurück." },
-              { id: "faq2", title: "Brauche ich einen Termin?", content: "Termine sind nicht zwingend erforderlich, aber wir empfehlen sie für eine noch schnellere Abwicklung bei Ihrem langjährigen Experten." },
-              { id: "faq3", title: "Gibt es eine Garantie?", content: "Selbstverständlich gewähren wir auf unsere jahrelange Erfahrung vertrauenswürdige Garantie auf alle Reparaturen und verbauten Teile." },
+              { id: "f1", title: "Wo finde ich Sie?", content: "Wir befinden uns in der Otto Glöckel Straße 1, 2514 Traiskirchen." },
+              { id: "f2", title: "Wie sind die Öffnungszeiten?", content: "Wir sind Montag bis Freitag für Sie da." }
             ]}
-            buttons={[{ text: "Kontaktieren Sie uns", href: "/contact" }, { text: "Anrufen", onClick: () => window.location.href = "tel:+432252521031" }]}
-            title="Häufige Fragen"
-            description="Haben Sie Fragen? Wir helfen Ihnen als Ihr lokaler Experte mit 25 Jahren Erfahrung gerne weiter."
             faqsAnimation="slide-up"
+            title="FAQ"
+            description="Haben Sie noch Fragen? Finden Sie hier die wichtigsten Antworten rund um unseren Shop."
           />
         </div>
 
         <div id="footer" data-section="footer">
           <FooterBaseReveal
-            logoText="Austro-Tel Handyshop"
+            logoText="Austrotel Traiskirchen"
             columns={[
               { title: "Unternehmen", items: [{ label: "Über uns", href: "/about" }, { label: "Kontakt", href: "/contact" }] },
-              { title: "Dienstleistungen", items: [{ label: "Reparaturen", href: "/services" }, { label: "Verkauf", href: "/services" }] },
+              { title: "Service", items: [{ label: "Reparaturen", href: "/services" }, { label: "Anfahrt", href: "/contact" }] }
             ]}
-            copyrightText="© 2025 | Austro-Tel Handyshop Traiskirchen - Seit 25 Jahren Ihr Fachgeschäft."
+            copyrightText="© 2025 Austrotel Traiskirchen. Alle Rechte vorbehalten."
           />
         </div>
       </ReactLenis>
