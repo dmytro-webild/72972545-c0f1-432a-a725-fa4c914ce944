@@ -48,8 +48,8 @@ export default function LandingPage() {
             description="Reparatur in unter 60 Minuten – Ihr Smartphone-Experte in Traiskirchen für blitzschnellen Service. WhatsApp: 06646370015"
             buttons={[{ text: "Jetzt Reparatur-Termin vereinbaren", href: "/contact" }]}
             slides={[
-              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DLX7abrKMHcdx9YbSkGfOjUjyl/uploaded-1778144863108-a7jdq3jn.jpg", imageAlt: "Austro-Tel Shop Außenansicht" },
-              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DLX7abrKMHcdx9YbSkGfOjUjyl/uploaded-1778144863108-xa8y728e.jpg", imageAlt: "Shop Frontansicht" },
+              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DLX7abrKMHcdx9YbSkGfOjUjyl/uploaded-1778144863108-a7jdq3jn.jpg?_wi=1", imageAlt: "Austro-Tel Shop Außenansicht" },
+              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DLX7abrKMHcdx9YbSkGfOjUjyl/uploaded-1778144863108-xa8y728e.jpg?_wi=1", imageAlt: "Shop Frontansicht" },
               { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DLX7abrKMHcdx9YbSkGfOjUjyl/uploaded-1778144863108-3i66kqvi.png", imageAlt: "Shop Innenansicht" }
             ]}
           />
@@ -92,8 +92,8 @@ export default function LandingPage() {
             description="Zufriedene Kunden stehen bei uns an erster Stelle. Lesen Sie, warum uns so viele Menschen vertrauen."
             kpiItems={[{ value: "250+", label: "Bewertungen" }, { value: "4.8", label: "Sterne-Bewertung" }, { value: "100%", label: "Ehrlicher Service" }]}
             testimonials={[
-              { id: "t1", name: "Markus H.", role: "Kunde", company: "Mein iPhone Display war innerhalb einer Stunde wie neu. Top Service!", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DLX7abrKMHcdx9YbSkGfOjUjyl/uploaded-1778144863108-a7jdq3jn.jpg" },
-              { id: "t2", name: "Julia S.", role: "Kundin", company: "Sehr freundliche Beratung und faire Preise bei der Reparatur meines Samsungs.", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DLX7abrKMHcdx9YbSkGfOjUjyl/uploaded-1778144863108-xa8y728e.jpg" },
+              { id: "t1", name: "Markus H.", role: "Kunde", company: "Mein iPhone Display war innerhalb einer Stunde wie neu. Top Service!", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DLX7abrKMHcdx9YbSkGfOjUjyl/uploaded-1778144863108-a7jdq3jn.jpg?_wi=2" },
+              { id: "t2", name: "Julia S.", role: "Kundin", company: "Sehr freundliche Beratung und faire Preise bei der Reparatur meines Samsungs.", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DLX7abrKMHcdx9YbSkGfOjUjyl/uploaded-1778144863108-xa8y728e.jpg?_wi=2" },
               { id: "t3", name: "Peter R.", role: "Kunde", company: "Schnelle Hilfe bei Softwareproblemen, absolut empfehlenswert für alle in Traiskirchen.", rating: 5, imageSrc: "" }
             ]}
           />
