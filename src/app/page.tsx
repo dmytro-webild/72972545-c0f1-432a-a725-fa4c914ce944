@@ -38,7 +38,7 @@ export default function LandingPage() {
               { name: "FAQ", id: "faq" },
               { name: "Kontakt", id: "/contact" },
             ]}
-            button={{ text: "Kontakt", href: "/contact" }}
+            button={{ text: "Anrufen", onClick: () => window.location.href = "tel:+432252521031" }}
           />
         </div>
 
@@ -46,7 +46,7 @@ export default function LandingPage() {
           <HeroCarouselLogo
             logoText="Austro-Tel Handyshop"
             description="Reparatur in unter 60 Minuten – Ihr Smartphone-Experte in Traiskirchen für blitzschnellen Service. WhatsApp: 06646370015"
-            buttons={[{ text: "Jetzt Reparatur-Termin vereinbaren", href: "/contact" }]}
+            buttons={[{ text: "Jetzt Reparatur-Termin vereinbaren", href: "/contact" }, { text: "Anrufen", onClick: () => window.location.href = "tel:+432252521031" }]}
             slides={[
               { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DLX7abrKMHcdx9YbSkGfOjUjyl/uploaded-1778144863108-a7jdq3jn.jpg?_wi=1", imageAlt: "Austro-Tel Shop Außenansicht" },
               { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DLX7abrKMHcdx9YbSkGfOjUjyl/uploaded-1778144863108-xa8y728e.jpg?_wi=1", imageAlt: "Shop Frontansicht" },
@@ -63,7 +63,7 @@ export default function LandingPage() {
               { type: "image", src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DLX7abrKMHcdx9YbSkGfOjUjyl/uploaded-1778144863108-3i66kqvi.png", alt: "Handyshop" },
               { type: "text", content: " Smartphone-Reparaturen & Technik" },
             ]}
-            buttons={[{ text: "Wegbeschreibung zum Shop", href: "/contact" }]}
+            buttons={[{ text: "Wegbeschreibung zum Shop", href: "/contact" }, { text: "Anrufen", onClick: () => window.location.href = "tel:+432252521031" }]}
           />
         </div>
 
@@ -108,7 +108,7 @@ export default function LandingPage() {
               { id: "faq2", title: "Brauche ich einen Termin?", content: "Termine sind nicht zwingend erforderlich, aber empfehlenswert für eine schnellere Abwicklung." },
               { id: "faq3", title: "Gibt es eine Garantie?", content: "Selbstverständlich gewähren wir Garantie auf alle unsere Reparaturen und verbauten Teile." },
             ]}
-            buttons={[{ text: "Kontaktieren Sie uns", href: "/contact" }]}
+            buttons={[{ text: "Kontaktieren Sie uns", href: "/contact" }, { text: "Anrufen", onClick: () => window.location.href = "tel:+432252521031" }]}
             title="Häufige Fragen"
             description="Haben Sie Fragen? Wir helfen Ihnen gerne weiter."
             faqsAnimation="slide-up"
