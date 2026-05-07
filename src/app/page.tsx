@@ -75,9 +75,9 @@ export default function LandingPage() {
             useInvertedBackground={false}
             tag="Top-Rated in Traiskirchen"
             features={[
-              { icon: Wrench, title: "Fachgerechte Reparaturen", description: "Display-, Software- und Hardware-Reparaturen durch erfahrene Profis seit 25 Jahren." },
-              { icon: Smartphone, title: "Neuste Geräte", description: "Große Auswahl an aktuellen Smartphones und passendem Zubehör bei Ihrem vertrauten Partner." },
-              { icon: ShieldCheck, title: "Transparente Preise", description: "Ehrliche und faire Kostenaufstellung ohne versteckte Gebühren seit zwei Jahrzehnten." },
+              { icon: Wrench, title: "Sofort-Reparatur", description: "Display-, Software- und Hardware-Reparaturen durch erfahrene Profis seit 25 Jahren." },
+              { icon: Smartphone, title: "Top-Aktuelle Modelle", description: "Große Auswahl an aktuellen Smartphones und passendem Zubehör bei Ihrem vertrauten Partner." },
+              { icon: ShieldCheck, title: "Fair-Preis-Garantie", description: "Ehrliche und faire Kostenaufstellung ohne versteckte Gebühren seit zwei Jahrzehnten." },
             ]}
             title="Warum Austro-Tel?"
             description="Seit 25 Jahren stehen wir für Qualität. Mit über 250+ Bewertungen und 4,8 Sternen sind wir Ihr vertrauenswürdiger Ansprechpartner in Traiskirchen."
