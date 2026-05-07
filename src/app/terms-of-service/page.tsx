@@ -32,7 +32,6 @@ export default function TermsOfServicePage() {
               { name: "Kontakt", id: "/contact" },
               { name: "AGB", id: "/terms-of-service" },
             ]}
-            button={{ text: "Anrufen", onClick: () => window.location.href = "tel:+432252521031" }}
           />
 
         <div className="pt-24">
