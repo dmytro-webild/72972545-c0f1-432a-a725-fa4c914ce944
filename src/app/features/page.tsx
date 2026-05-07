@@ -3,10 +3,11 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
-import InlineImageSplitTextAbout from '@/components/sections/about/InlineImageSplitTextAbout';
+import FeatureHoverPattern from '@/components/sections/feature/featureHoverPattern/FeatureHoverPattern';
 import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
+import { ShieldCheck, Smartphone, Wrench } from "lucide-react";
 
-export default function AboutPage() {
+export default function FeaturesPage() {
   return (
     <ThemeProvider
         defaultButtonVariant="hover-magnetic"
@@ -36,13 +37,20 @@ export default function AboutPage() {
             button={{ text: "Anrufen", onClick: () => window.location.href = "tel:+432252521031" }}
           />
 
-        <div id="about" data-section="about" className="pt-24">
-            <InlineImageSplitTextAbout
-                useInvertedBackground={false}
-                heading={[
-                { type: "text", content: "Über uns: Austro-Tel Traiskirchen - Ihr kompetenter Partner für Smartphone-Service seit 25 Jahren." },
-                ]}
-            />
+        <div id="features" data-section="features" className="pt-24">
+          <FeatureHoverPattern
+            animationType="slide-up"
+            textboxLayout="split"
+            useInvertedBackground={false}
+            tag="Unsere Kompetenzen"
+            features={[
+              { icon: Wrench, title: "Fachgerechte Reparaturen", description: "Display-, Software- und Hardware-Reparaturen durch erfahrene Profis seit 25 Jahren." },
+              { icon: Smartphone, title: "Neuste Geräte", description: "Große Auswahl an aktuellen Smartphones und passendem Zubehör bei Ihrem vertrauten Partner." },
+              { icon: ShieldCheck, title: "Transparente Preise", description: "Ehrliche und faire Kostenaufstellung ohne versteckte Gebühren seit zwei Jahrzehnten." },
+            ]}
+            title="Warum Austro-Tel?"
+            description="Seit 25 Jahren stehen wir für Qualität. Mit über 250+ Bewertungen und 4,8 Sternen sind wir Ihr vertrauenswürdiger Ansprechpartner in Traiskirchen."
+          />
         </div>
 
         <FooterBaseReveal
